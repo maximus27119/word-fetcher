@@ -1,10 +1,10 @@
 import 'dotenv/config';
-import * as path from "path";
-import chalk from "chalk";
+import * as path from 'path';
+import chalk from 'chalk';
 
-import { getWordsData } from "./utils/search/word-meaning-fetcher.js";
-import { readAndTrimWordsFromNewlineFile } from "./utils/file/file-reader.js";
-import { writeToJsonFile, writeToJsFile } from "./utils/file/file-writer.js";
+import { getWordsData } from './utils/search/word-meaning-fetcher.js';
+import { readAndTrimWordsFromNewlineFile } from './utils/file/file-reader.js';
+import { writeToJsonFile, writeToJsFile } from './utils/file/file-writer.js';
 
 const WORDS_SOURCE_DIR = process.env.WORDS_SOURCE_DIR;
 const WORDS_SOURCE_FILE = process.env.WORDS_SOURCE_FILE;

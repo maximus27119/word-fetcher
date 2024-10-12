@@ -1,4 +1,4 @@
-import fetch from "node-fetch";
+import fetch from 'node-fetch';
 
 const imagesApiUrlBase = process.env.PIXABAY_API_URL;
 

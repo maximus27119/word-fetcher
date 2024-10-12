@@ -1,5 +1,5 @@
-import fetch from "node-fetch";
-import { getWordImage } from "./image-fetcher.js";
+import fetch from 'node-fetch';
+import { getWordImage } from './image-fetcher.js';
 
 const dictionaryApiUrlBase = process.env.DICTIONARY_API_URL;
 
